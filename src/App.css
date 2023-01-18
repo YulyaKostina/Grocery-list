@@ -1,0 +1,30 @@
+.App{
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  width: 30vw;
+  margin: 0 auto;
+}
+
+body{
+  background-color: rgb(72, 192, 166);
+}
+
+.ul, li{
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+}
+
+.crossed{
+  text-decoration: line-through 2px red;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
